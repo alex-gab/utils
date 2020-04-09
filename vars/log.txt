@@ -1,0 +1,8 @@
+<div>
+    <b>info</b>
+    Print an info message
+</div>
+<div>
+    <b>warn</b>
+    Prin a warning message
+</div>
