@@ -3,8 +3,8 @@ import org.apache.commons.math3.primes.Primes
 
 def call(int... numbers) {
     for (int num : numbers ) {
-        if (Primes.isPrime(i)) {
-            echo "Number ${i} is prime."
+        if (Primes.isPrime(num)) {
+            echo "Number ${num} is prime."
         }
     }
 }
