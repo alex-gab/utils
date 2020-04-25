@@ -8,3 +8,17 @@ def call(int... numbers) {
         }
     }
 }
+
+def print(int... numbers) {
+    call(numbers)
+}
+
+int count(int... numbers) {
+    int i = 0
+    for (int num : numbers ) {
+        if (Primes.isPrime(num)) {
+            ++i
+        }
+    }
+    return i
+}

@@ -1,0 +1,8 @@
+<div>
+    <b>print</b>
+    Takes a list of numbers and prints only the ones that are prime.
+</div>
+<div>
+    <b>count</b>
+    Takes a list of numbers and returns the primes count.
+</div>
