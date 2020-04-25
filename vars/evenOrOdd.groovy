@@ -17,6 +17,7 @@ def call(int buildNumber) {
         stage('Odd Stage') {
           steps {
             echo "The build number is odd"
+            unstable "Pipeline unstable because of the odd build number, pfff..."
           }
         }
       }
